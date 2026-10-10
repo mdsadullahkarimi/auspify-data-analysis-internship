@@ -37,4 +37,12 @@ This project focuses on cleaning and preparing the Netflix Movies and TV Shows d
 The cleaned dataset is saved as `cleaned_netflix_data.csv`.
 
 ## Verification
-The exported dataset should be checked for duplicate rows, missing values, and correct data types before submission.
+The exported dataset was verified successfully.
+
+- Total records: 8,790
+- Total columns: 10
+- Duplicate rows after cleaning: 0
+- Missing values in the exported dataset: 0
+- Date column converted to datetime format
+
+The cleaned dataset is saved as `cleaned_netflix_data.csv`.
