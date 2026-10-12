@@ -1,0 +1,14 @@
+NETFLIX CONTENT TYPE ANALYSIS
+===================================
+
+Total titles: 8790
+Movies: 6126
+TV Shows: 2664
+
+Movie percentage: 69.69%
+TV Show percentage: 30.31%
+
+KEY FINDINGS
+Movies make up the majority of Netflix titles.
+Movies account for 69.69% of the dataset.
+TV Shows account for 30.31% of the dataset.
