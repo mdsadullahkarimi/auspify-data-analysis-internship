@@ -1,0 +1,24 @@
+NETFLIX COUNTRY-WISE CONTENT ANALYSIS
+
+PROJECT OVERVIEW
+This project analyzes Netflix content availability across different countries using Python and Pandas.
+
+KEY FINDINGS
+1. The United States has the highest number of titles in the analyzed dataset.
+2. India ranks second in the country-wise content count.
+3. The United Kingdom is among the top countries by content count.
+4. Multiple countries can be associated with a single Netflix title.
+
+BUSINESS INSIGHTS
+- The country-wise ranking helps identify markets strongly represented in the dataset.
+- Netflix can use country-level content data to understand its content distribution.
+- Country counts should be interpreted carefully because one title may be associated with multiple countries.
+- Country counts represent title-country associations, not unique titles. A single title associated with multiple countries is counted for each listed country.
+
+TOOLS USED
+- Python
+- Pandas
+- Matplotlib
+
+CONCLUSION
+The analysis identifies the countries with the highest number of Netflix titles in the dataset and presents the results through a ranking table and bar chart.
