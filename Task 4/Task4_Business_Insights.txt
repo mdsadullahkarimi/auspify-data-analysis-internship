@@ -1,0 +1,31 @@
+NETFLIX TREND ANALYSIS BY RELEASE YEAR
+
+PROJECT OVERVIEW
+
+This project analyzes the yearly distribution of Netflix titles using Python, Pandas, and Matplotlib. The objective is to identify historical content release patterns and changes over time.
+
+KEY FINDINGS
+
+1. The dataset contains 8,790 titles and 10 columns.
+2. No missing values were found in the release_year column.
+3. The highest number of titles in the dataset was recorded in 2018, with 1,146 titles.
+4. Content counts increased substantially between 2015 and 2018.
+5. The yearly count decreased from 1,146 in 2018 to 1,030 in 2019 and 953 in 2020.
+6. The count for 2021 was 592 titles.
+
+BUSINESS INSIGHTS
+
+- Year-wise analysis helps identify periods with higher content representation.
+- The strong increase between 2015 and 2018 indicates a period of substantial growth in the dataset.
+- The lower counts after 2018 may reflect changes in the dataset's release-year distribution.
+- The 2021 result should be interpreted cautiously because the dataset contains no later release years.
+
+TOOLS USED
+
+- Python
+- Pandas
+- Matplotlib
+
+CONCLUSION
+
+The analysis identifies 2018 as the peak release year in this dataset. The yearly counts increased strongly before 2018 and declined in the following years represented in the data. The chart provides a visual summary of these historical patterns.
