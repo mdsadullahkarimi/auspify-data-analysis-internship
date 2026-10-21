@@ -1,0 +1,53 @@
+# Task 5: Netflix Content Rating & Genre Analysis
+
+## Project Overview
+This project analyses Netflix content ratings, compares ratings across Movies and TV Shows, and identifies the most common genres using Python.
+
+## Dataset
+- Total titles: 8,790
+- Total columns: 10
+- Rating column: `rating`
+- Genre column: `listed_in`
+- Missing values in these two columns: 0
+
+## Objectives
+1. Analyse the distribution of content ratings.
+2. Compare ratings between Movies and TV Shows.
+3. Identify the top 10 genres.
+4. Analyse genre-wise content rating distributions.
+5. Generate CSV reports and visualisations.
+
+## Tools and Libraries
+- Python
+- Pandas
+- Matplotlib
+
+## Key Findings
+- TV-MA is the most common rating, with 3,205 titles.
+- TV-14 is the second most common rating, with 2,157 titles.
+- International Movies is the most frequent genre association, with 2,752 titles.
+- Dramas is the second most frequent genre association, with 2,426 titles.
+- Rating distributions differ between Movies and TV Shows.
+
+**Note:** A title may belong to multiple genres, so genre counts can overlap. These counts do not directly measure audience popularity or viewing hours.
+
+## Project Files
+- `Task5.py` — Python analysis script
+- `Task5_Rating_Analysis.csv` — Content rating counts
+- `Task5_Rating_Analysis.png` — Rating distribution chart
+- `Task5_Rating_by_Type.csv` — Ratings by content type
+- `Task5_Rating_by_Type.png` — Movies vs TV Shows rating chart
+- `Task5_Top10_Genres.csv` — Top 10 genre counts
+- `Task5_Top10_Genres.png` — Top 10 genres chart
+- `Task5_Genre_Rating_Analysis.csv` — Genre-wise rating counts
+- `Task5_Business_Insights.txt` — Business insights report
+
+## How to Run
+Run the following command from the project root directory:
+
+```bash
+python "Task 5/Task5.py"
+```
+
+## Conclusion
+This analysis provides a structured view of Netflix's content rating and genre distribution. The findings can support catalog analysis and reporting, but audience demand requires additional viewing and engagement data.

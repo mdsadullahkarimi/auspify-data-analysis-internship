@@ -1,0 +1,46 @@
+# Netflix Content Rating & Genre Analysis — Business Insights
+
+## 1. Project Overview
+This project analyses content ratings, content types, and genre distribution in the Netflix dataset containing 8,790 titles and 10 columns.
+
+## 2. Content Rating Insights
+- TV-MA is the most common content rating, with 3,205 titles.
+- TV-14 is the second most common rating, with 2,157 titles.
+- TV-PG has 861 titles, followed by R with 799 titles.
+- These results describe the distribution of ratings in this dataset; they do not directly measure audience popularity or viewing hours.
+
+## 3. Movies vs TV Shows
+- The dataset contains 2,062 TV-MA-rated Movies and 1,143 TV-MA-rated TV Shows.
+- TV-14 includes 1,427 Movies and 730 TV Shows.
+- TV-Y and TV-Y7 appear in both Movies and TV Shows.
+- Rating patterns differ by content type, which can support content catalog analysis.
+
+## 4. Genre Insights
+Top genre associations:
+1. International Movies — 2,752
+2. Dramas — 2,426
+3. Comedies — 1,674
+4. International TV Shows — 1,349
+5. Documentaries — 869
+6. Action & Adventure — 859
+7. TV Dramas — 762
+8. Independent Movies — 756
+9. Children & Family Movies — 641
+10. Romantic Movies — 616
+
+A title can belong to multiple genres, so genre counts overlap.
+
+## 5. Business Recommendations
+- Use rating distributions to understand the composition of the content catalog.
+- Compare Movies and TV Shows separately when reviewing rating patterns.
+- Review genre distribution when planning catalog reporting and content categorisation.
+- Combine this analysis with viewing, engagement, and retention data before making audience-demand or investment decisions.
+
+## 6. Limitations
+This analysis measures title counts in the provided dataset. It does not establish viewer preferences, profitability, or causal relationships. Results depend on the dataset's coverage and quality.
+
+## 7. Tools Used
+- Python
+- Pandas
+- Matplotlib
+- CSV data exports
