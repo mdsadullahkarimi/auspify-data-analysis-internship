@@ -1,0 +1,44 @@
+
+NETFLIX BUSINESS INSIGHTS REPORT
+================================
+
+1. DATASET OVERVIEW
+Total titles analysed: 8790
+Total columns: 10
+
+2. CONTENT TYPE ANALYSIS
+Movies: 6126 (69.69%)
+TV Shows: 2664 (30.31%)
+
+Insight:
+Movies represent the larger share of the Netflix titles in this dataset.
+
+3. COUNTRY ANALYSIS
+Top country: United States
+Country title associations: 3240
+
+Insight:
+The United States has the highest number of country-title associations
+in this dataset.
+
+4. GENRE ANALYSIS
+Top genre: International Movies
+Genre title associations: 2752
+
+Insight:
+International Movies is the most frequently listed genre in this dataset.
+
+5. BUSINESS RECOMMENDATIONS
+- Monitor the balance between Movies and TV Shows in the catalog.
+- Review country and genre distributions when planning catalog analysis.
+- Combine catalog data with viewership and engagement metrics before
+  making audience-demand decisions.
+- Use additional market and performance data to evaluate content strategy.
+
+6. LIMITATIONS
+- One title may be associated with multiple countries or genres.
+- Title counts do not measure views, revenue, or audience preference.
+- Findings describe this dataset and do not establish causal relationships.
+
+================================
+Report generated using Python and Pandas.
